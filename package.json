@@ -1,0 +1,45 @@
+{
+  "name": "owo-cli",
+  "version": "1.0.0",
+  "description": "CLI for @zuzak/owo.",
+  "main": "out/index.js",
+  "bin": "out/index.js",
+  "files": [
+    "out/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix src/**/*",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.2",
+    "@typescript-eslint/parser": "^4.1.1",
+    "eslint": "^7.9.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hparcells/owo-cli.git"
+  },
+  "keywords": [
+    "owo",
+    "owoify",
+    "uwu",
+    "uwuify",
+    "furry"
+  ],
+  "author": "Hunter Parcells",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hparcells/owo-cli/issues"
+  },
+  "homepage": "https://github.com/hparcells/owo-cli#readme",
+  "dependencies": {
+    "@zuzak/owo": "^1.11.1"
+  }
+}
