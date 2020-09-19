@@ -1,0 +1,5 @@
+# Tests
+test/
+
+# Files
+jest.config.js

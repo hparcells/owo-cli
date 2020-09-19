@@ -5,5 +5,8 @@
     "parcells",
     "uwuify",
     "zuzak"
+  ],
+  "ignorePaths": [
+    "test"
   ]
 }
